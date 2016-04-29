@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsbaoan" targetNamespace="http://tempuri.org/dsbaoan.xsd" xmlns:mstns="http://tempuri.org/dsbaoan.xsd" xmlns="http://tempuri.org/dsbaoan.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="QuanlybantruConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="QuanlybantruConnectionString (Settings)" PropertyReference="ApplicationSettings.KPBT.Properties.Settings.GlobalReference.Default.QuanlybantruConnectionString" Provider="System.Data.OleDb" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsbaoan" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="dsbaoan" msprop:Generator_UserDSName="dsbaoan" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="baoan" msprop:Generator_UserTableName="baoan" msprop:Generator_RowDeletedName="baoanRowDeleted" msprop:Generator_TableClassName="baoanDataTable" msprop:Generator_RowChangedName="baoanRowChanged" msprop:Generator_RowClassName="baoanRow" msprop:Generator_RowChangingName="baoanRowChanging" msprop:Generator_RowEvArgName="baoanRowChangeEvent" msprop:Generator_RowEvHandlerName="baoanRowChangeEventHandler" msprop:Generator_TablePropName="baoan" msprop:Generator_TableVarName="tablebaoan" msprop:Generator_RowDeletingName="baoanRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="idbaoan" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_UserColumnName="idbaoan" msprop:Generator_ColumnPropNameInRow="idbaoan" msprop:Generator_ColumnVarNameInTable="columnidbaoan" msprop:Generator_ColumnPropNameInTable="idbaoanColumn" type="xs:int" />
+              <xs:element name="mshs" msprop:Generator_UserColumnName="mshs" msprop:Generator_ColumnPropNameInRow="mshs" msprop:Generator_ColumnVarNameInTable="columnmshs" msprop:Generator_ColumnPropNameInTable="mshsColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="tenhs" msprop:Generator_UserColumnName="tenhs" msprop:Generator_ColumnPropNameInRow="tenhs" msprop:Generator_ColumnVarNameInTable="columntenhs" msprop:Generator_ColumnPropNameInTable="tenhsColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="tenphong" msprop:Generator_UserColumnName="tenphong" msprop:Generator_ColumnPropNameInRow="tenphong" msprop:Generator_ColumnVarNameInTable="columntenphong" msprop:Generator_ColumnPropNameInTable="tenphongColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ntan" msprop:Generator_UserColumnName="ntan" msprop:Generator_ColumnPropNameInRow="ntan" msprop:Generator_ColumnVarNameInTable="columnntan" msprop:Generator_ColumnPropNameInTable="ntanColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="thu" msprop:Generator_UserColumnName="thu" msprop:Generator_ColumnPropNameInRow="thu" msprop:Generator_ColumnVarNameInTable="columnthu" msprop:Generator_ColumnPropNameInTable="thuColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="tuanthu" msprop:Generator_UserColumnName="tuanthu" msprop:Generator_ColumnPropNameInRow="tuanthu" msprop:Generator_ColumnVarNameInTable="columntuanthu" msprop:Generator_ColumnPropNameInTable="tuanthuColumn" type="xs:short" minOccurs="0" />
+              <xs:element name="BS" msprop:Generator_UserColumnName="BS" msprop:Generator_ColumnPropNameInRow="BS" msprop:Generator_ColumnVarNameInTable="columnBS" msprop:Generator_ColumnPropNameInTable="BSColumn" type="xs:short" minOccurs="0" />
+              <xs:element name="BC" msprop:Generator_UserColumnName="BC" msprop:Generator_ColumnPropNameInRow="BC" msprop:Generator_ColumnVarNameInTable="columnBC" msprop:Generator_ColumnPropNameInTable="BCColumn" type="xs:short" minOccurs="0" />
+              <xs:element name="BT" msprop:Generator_UserColumnName="BT" msprop:Generator_ColumnPropNameInRow="BT" msprop:Generator_ColumnVarNameInTable="columnBT" msprop:Generator_ColumnPropNameInTable="BTColumn" type="xs:short" minOccurs="0" />
+              <xs:element name="MA" msprop:Generator_UserColumnName="MA" msprop:Generator_ColumnPropNameInRow="MA" msprop:Generator_ColumnVarNameInTable="columnMA" msprop:Generator_ColumnPropNameInTable="MAColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="GC" msprop:Generator_UserColumnName="GC" msprop:Generator_ColumnPropNameInRow="GC" msprop:Generator_ColumnVarNameInTable="columnGC" msprop:Generator_ColumnPropNameInTable="GCColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BS1" msprop:Generator_UserColumnName="BS1" msprop:Generator_ColumnPropNameInRow="BS1" msprop:Generator_ColumnVarNameInTable="columnBS1" msprop:Generator_ColumnPropNameInTable="BS1Column" type="xs:boolean" minOccurs="0" />
+              <xs:element name="BC1" msprop:Generator_UserColumnName="BC1" msprop:Generator_ColumnPropNameInRow="BC1" msprop:Generator_ColumnVarNameInTable="columnBC1" msprop:Generator_ColumnPropNameInTable="BC1Column" type="xs:boolean" minOccurs="0" />
+              <xs:element name="BT1" msprop:Generator_UserColumnName="BT1" msprop:Generator_ColumnPropNameInRow="BT1" msprop:Generator_ColumnVarNameInTable="columnBT1" msprop:Generator_ColumnPropNameInTable="BT1Column" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:baoan" />
+      <xs:field xpath="mstns:idbaoan" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

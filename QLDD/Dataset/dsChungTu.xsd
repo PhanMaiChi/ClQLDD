@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsChungTu" targetNamespace="http://tempuri.org/dsChungTu.xsd" xmlns:mstns="http://tempuri.org/dsChungTu.xsd" xmlns="http://tempuri.org/dsChungTu.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="QuanlybantruConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="QuanlybantruConnectionString (Settings)" PropertyReference="ApplicationSettings.KPBT.Properties.Settings.GlobalReference.Default.QuanlybantruConnectionString" Provider="System.Data.OleDb" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsChungTu" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsChungTu" msprop:Generator_DataSetName="dsChungTu" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="qrSoQuyTM" msprop:Generator_UserTableName="qrSoQuyTM" msprop:Generator_RowDeletedName="qrSoQuyTMRowDeleted" msprop:Generator_RowChangedName="qrSoQuyTMRowChanged" msprop:Generator_RowClassName="qrSoQuyTMRow" msprop:Generator_RowChangingName="qrSoQuyTMRowChanging" msprop:Generator_RowEvArgName="qrSoQuyTMRowChangeEvent" msprop:Generator_RowEvHandlerName="qrSoQuyTMRowChangeEventHandler" msprop:Generator_TableClassName="qrSoQuyTMDataTable" msprop:Generator_TableVarName="tableqrSoQuyTM" msprop:Generator_RowDeletingName="qrSoQuyTMRowDeleting" msprop:Generator_TablePropName="qrSoQuyTM">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ngaygs" msprop:Generator_UserColumnName="ngaygs" msprop:Generator_ColumnPropNameInRow="ngaygs" msprop:Generator_ColumnVarNameInTable="columnngaygs" msprop:Generator_ColumnPropNameInTable="ngaygsColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ploai" msprop:Generator_UserColumnName="ploai" msprop:Generator_ColumnPropNameInRow="ploai" msprop:Generator_ColumnVarNameInTable="columnploai" msprop:Generator_ColumnPropNameInTable="ploaiColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="sohieuthu" msdata:Caption="sohieu" msprop:Generator_UserColumnName="sohieuthu" msprop:Generator_ColumnPropNameInRow="sohieuthu" msprop:Generator_ColumnVarNameInTable="columnsohieuthu" msprop:Generator_ColumnPropNameInTable="sohieuthuColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="noidung" msprop:Generator_UserColumnName="noidung" msprop:Generator_ColumnPropNameInRow="noidung" msprop:Generator_ColumnVarNameInTable="columnnoidung" msprop:Generator_ColumnPropNameInTable="noidungColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="sotienchi" msprop:Generator_UserColumnName="sotienchi" msprop:Generator_ColumnPropNameInRow="sotienchi" msprop:Generator_ColumnVarNameInTable="columnsotienchi" msprop:Generator_ColumnPropNameInTable="sotienchiColumn" type="xs:double" default="0" minOccurs="0" />
+              <xs:element name="sotienthu" msdata:Caption="sotien" msprop:Generator_UserColumnName="sotienthu" msprop:Generator_ColumnPropNameInRow="sotienthu" msprop:Generator_ColumnVarNameInTable="columnsotienthu" msprop:Generator_ColumnPropNameInTable="sotienthuColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="sohieuchi" msprop:Generator_UserColumnName="sohieuchi" msprop:Generator_ColumnPropNameInRow="sohieuchi" msprop:Generator_ColumnVarNameInTable="columnsohieuchi" msprop:Generator_ColumnPropNameInTable="sohieuchiColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="sodu" msprop:Generator_UserColumnName="sodu" msprop:Generator_ColumnPropNameInRow="sodu" msprop:Generator_ColumnVarNameInTable="columnsodu" msprop:Generator_ColumnPropNameInTable="soduColumn" type="xs:double" default="0" minOccurs="0" />
+              <xs:element name="thang" msprop:Generator_UserColumnName="thang" msprop:Generator_ColumnVarNameInTable="columnthang" msprop:Generator_ColumnPropNameInRow="thang" msprop:Generator_ColumnPropNameInTable="thangColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsdanhsachhs" targetNamespace="http://tempuri.org/dsdanhsachhs.xsd" xmlns:mstns="http://tempuri.org/dsdanhsachhs.xsd" xmlns="http://tempuri.org/dsdanhsachhs.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="QuanlybantruConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="QuanlybantruConnectionString (Settings)" PropertyReference="ApplicationSettings.KPBT.Properties.Settings.GlobalReference.Default.QuanlybantruConnectionString" Provider="System.Data.OleDb" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsdanhsachhs" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="dsdanhsachhs" msprop:Generator_UserDSName="dsdanhsachhs" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="hocsinh" msprop:Generator_UserTableName="hocsinh" msprop:Generator_RowDeletedName="hocsinhRowDeleted" msprop:Generator_TableClassName="hocsinhDataTable" msprop:Generator_RowChangedName="hocsinhRowChanged" msprop:Generator_RowClassName="hocsinhRow" msprop:Generator_RowChangingName="hocsinhRowChanging" msprop:Generator_RowEvArgName="hocsinhRowChangeEvent" msprop:Generator_RowEvHandlerName="hocsinhRowChangeEventHandler" msprop:Generator_TablePropName="hocsinh" msprop:Generator_TableVarName="tablehocsinh" msprop:Generator_RowDeletingName="hocsinhRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="idhs" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_UserColumnName="idhs" msprop:Generator_ColumnPropNameInRow="idhs" msprop:Generator_ColumnVarNameInTable="columnidhs" msprop:Generator_ColumnPropNameInTable="idhsColumn" type="xs:int" />
+              <xs:element name="mshs" msprop:Generator_UserColumnName="mshs" msprop:Generator_ColumnPropNameInRow="mshs" msprop:Generator_ColumnVarNameInTable="columnmshs" msprop:Generator_ColumnPropNameInTable="mshsColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="tenhs" msprop:Generator_UserColumnName="tenhs" msprop:Generator_ColumnPropNameInRow="tenhs" msprop:Generator_ColumnVarNameInTable="columntenhs" msprop:Generator_ColumnPropNameInTable="tenhsColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="gths" msprop:Generator_UserColumnName="gths" msprop:Generator_ColumnPropNameInRow="gths" msprop:Generator_ColumnVarNameInTable="columngths" msprop:Generator_ColumnPropNameInTable="gthsColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ntns" msprop:Generator_UserColumnName="ntns" msprop:Generator_ColumnPropNameInRow="ntns" msprop:Generator_ColumnVarNameInTable="columnntns" msprop:Generator_ColumnPropNameInTable="ntnsColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="datoc" msprop:Generator_UserColumnName="datoc" msprop:Generator_ColumnPropNameInRow="datoc" msprop:Generator_ColumnVarNameInTable="columndatoc" msprop:Generator_ColumnPropNameInTable="datocColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="dchs" msprop:Generator_UserColumnName="dchs" msprop:Generator_ColumnPropNameInRow="dchs" msprop:Generator_ColumnVarNameInTable="columndchs" msprop:Generator_ColumnPropNameInTable="dchsColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="tenphong" msprop:Generator_UserColumnName="tenphong" msprop:Generator_ColumnPropNameInRow="tenphong" msprop:Generator_ColumnVarNameInTable="columntenphong" msprop:Generator_ColumnPropNameInTable="tenphongColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:hocsinh" />
+      <xs:field xpath="mstns:idhs" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

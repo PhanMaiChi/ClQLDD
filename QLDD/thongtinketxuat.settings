@@ -1,0 +1,45 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="KPBT" GeneratedClassName="thongtinketxuat">
+  <Profiles />
+  <Settings>
+    <Setting Name="tendv" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Trường THCS Cát Thịnh</Value>
+    </Setting>
+    <Setting Name="tenct" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="nlb" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Nguyễn Thị Ngọc</Value>
+    </Setting>
+    <Setting Name="ttdv" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Phan Ngọc Nam</Value>
+    </Setting>
+    <Setting Name="ptkt" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Bùi Thị Xuân</Value>
+    </Setting>
+    <Setting Name="diadanh" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Yên Bái</Value>
+    </Setting>
+    <Setting Name="bt" Type="System.String" Scope="User">
+      <Value Profile="(Default)">bt</Value>
+    </Setting>
+    <Setting Name="NTT" Type="System.String" Scope="User">
+      <Value Profile="(Default)">01/01/2014</Value>
+    </Setting>
+    <Setting Name="NTD" Type="System.String" Scope="User">
+      <Value Profile="(Default)">31/12/2014</Value>
+    </Setting>
+    <Setting Name="thuquy" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Nguyễn Thị Lan</Value>
+    </Setting>
+    <Setting Name="madvqhns" Type="System.String" Scope="User">
+      <Value Profile="(Default)">11122251</Value>
+    </Setting>
+    <Setting Name="thukho" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Nguyễn Thị Ngọc</Value>
+    </Setting>
+    <Setting Name="namhoc" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+  </Settings>
+</SettingsFile>

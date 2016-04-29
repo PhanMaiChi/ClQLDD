@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="luumta" targetNamespace="http://tempuri.org/luumta.xsd" xmlns:mstns="http://tempuri.org/luumta.xsd" xmlns="http://tempuri.org/luumta.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="QuanlybantruConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="QuanlybantruConnectionString (Settings)" PropertyReference="ApplicationSettings.KPBT.Properties.Settings.GlobalReference.Default.QuanlybantruConnectionString" Provider="System.Data.OleDb" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="luumta" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="luumta" msprop:Generator_UserDSName="luumta" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="luumta" msprop:Generator_UserTableName="luumta" msprop:Generator_RowDeletedName="luumtaRowDeleted" msprop:Generator_TableClassName="luumtaDataTable" msprop:Generator_RowChangedName="luumtaRowChanged" msprop:Generator_RowClassName="luumtaRow" msprop:Generator_RowChangingName="luumtaRowChanging" msprop:Generator_RowEvArgName="luumtaRowChangeEvent" msprop:Generator_RowEvHandlerName="luumtaRowChangeEventHandler" msprop:Generator_TablePropName="_luumta" msprop:Generator_TableVarName="tableluumta" msprop:Generator_RowDeletingName="luumtaRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="idluumta" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_UserColumnName="idluumta" msprop:Generator_ColumnPropNameInRow="idluumta" msprop:Generator_ColumnVarNameInTable="columnidluumta" msprop:Generator_ColumnPropNameInTable="idluumtaColumn" type="xs:int" />
+              <xs:element name="ngayluu" msprop:Generator_UserColumnName="ngayluu" msprop:Generator_ColumnPropNameInRow="ngayluu" msprop:Generator_ColumnVarNameInTable="columnngayluu" msprop:Generator_ColumnPropNameInTable="ngayluuColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="tenmau" msprop:Generator_UserColumnName="tenmau" msprop:Generator_ColumnPropNameInRow="tenmau" msprop:Generator_ColumnVarNameInTable="columntenmau" msprop:Generator_ColumnPropNameInTable="tenmauColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="gioluu" msprop:Generator_UserColumnName="gioluu" msprop:Generator_ColumnPropNameInRow="gioluu" msprop:Generator_ColumnVarNameInTable="columngioluu" msprop:Generator_ColumnPropNameInTable="gioluuColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="nguoiluu" msprop:Generator_UserColumnName="nguoiluu" msprop:Generator_ColumnPropNameInRow="nguoiluu" msprop:Generator_ColumnVarNameInTable="columnnguoiluu" msprop:Generator_ColumnPropNameInTable="nguoiluuColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="giohuy" msprop:Generator_UserColumnName="giohuy" msprop:Generator_ColumnPropNameInRow="giohuy" msprop:Generator_ColumnVarNameInTable="columngiohuy" msprop:Generator_ColumnPropNameInTable="giohuyColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="nguoihuy" msprop:Generator_UserColumnName="nguoihuy" msprop:Generator_ColumnPropNameInRow="nguoihuy" msprop:Generator_ColumnVarNameInTable="columnnguoihuy" msprop:Generator_ColumnPropNameInTable="nguoihuyColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ngayhuy" msprop:Generator_UserColumnName="ngayhuy" msprop:Generator_ColumnPropNameInRow="ngayhuy" msprop:Generator_ColumnVarNameInTable="columnngayhuy" msprop:Generator_ColumnPropNameInTable="ngayhuyColumn" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:luumta" />
+      <xs:field xpath="mstns:idluumta" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

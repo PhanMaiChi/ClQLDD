@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dstheodoisk" targetNamespace="http://tempuri.org/dstheodoisk.xsd" xmlns:mstns="http://tempuri.org/dstheodoisk.xsd" xmlns="http://tempuri.org/dstheodoisk.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection ConnectionStringObject="Provider=Microsoft.Jet.OLEDB.4.0;Data Source=|DataDirectory|\bin\x86\Debug\QLDD.mdb;Persist Security Info=True" IsAppSettingsProperty="false" Modifier="Assembly" Name="QLDD.mdb" Provider="System.Data.OleDb" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dstheodoisk" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dstheodoisk" msprop:Generator_DataSetName="dstheodoisk" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="theodoisk" msprop:Generator_UserTableName="theodoisk" msprop:Generator_RowDeletedName="theodoiskRowDeleted" msprop:Generator_RowChangedName="theodoiskRowChanged" msprop:Generator_RowClassName="theodoiskRow" msprop:Generator_RowChangingName="theodoiskRowChanging" msprop:Generator_RowEvArgName="theodoiskRowChangeEvent" msprop:Generator_RowEvHandlerName="theodoiskRowChangeEventHandler" msprop:Generator_TableClassName="theodoiskDataTable" msprop:Generator_TableVarName="tabletheodoisk" msprop:Generator_RowDeletingName="theodoiskRowDeleting" msprop:Generator_TablePropName="theodoisk">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ngaydanhgia" msprop:Generator_UserColumnName="ngaydanhgia" msprop:Generator_ColumnPropNameInRow="ngaydanhgia" msprop:Generator_ColumnVarNameInTable="columnngaydanhgia" msprop:Generator_ColumnPropNameInTable="ngaydanhgiaColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="mahocsinh" msprop:Generator_UserColumnName="mahocsinh" msprop:Generator_ColumnPropNameInRow="mahocsinh" msprop:Generator_ColumnVarNameInTable="columnmahocsinh" msprop:Generator_ColumnPropNameInTable="mahocsinhColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="sothangtuoi" msprop:Generator_UserColumnName="sothangtuoi" msprop:Generator_ColumnPropNameInRow="sothangtuoi" msprop:Generator_ColumnVarNameInTable="columnsothangtuoi" msprop:Generator_ColumnPropNameInTable="sothangtuoiColumn" type="xs:short" minOccurs="0" />
+              <xs:element name="cannang" msprop:Generator_UserColumnName="cannang" msprop:Generator_ColumnPropNameInRow="cannang" msprop:Generator_ColumnVarNameInTable="columncannang" msprop:Generator_ColumnPropNameInTable="cannangColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="chieucao" msprop:Generator_UserColumnName="chieucao" msprop:Generator_ColumnPropNameInRow="chieucao" msprop:Generator_ColumnVarNameInTable="columnchieucao" msprop:Generator_ColumnPropNameInTable="chieucaoColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="danhgia" msprop:Generator_UserColumnName="danhgia" msprop:Generator_ColumnPropNameInRow="danhgia" msprop:Generator_ColumnVarNameInTable="columndanhgia" msprop:Generator_ColumnPropNameInTable="danhgiaColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="gioitinh" msprop:Generator_UserColumnName="gioitinh" msprop:Generator_ColumnVarNameInTable="columngioitinh" msprop:Generator_ColumnPropNameInRow="gioitinh" msprop:Generator_ColumnPropNameInTable="gioitinhColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="chieucaochuan" msprop:Generator_UserColumnName="chieucaochuan" msprop:Generator_ColumnVarNameInTable="columnchieucaochuan" msprop:Generator_ColumnPropNameInRow="chieucaochuan" msprop:Generator_ColumnPropNameInTable="chieucaochuanColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="cannangchuan" msprop:Generator_UserColumnName="cannangchuan" msprop:Generator_ColumnVarNameInTable="columncannangchuan" msprop:Generator_ColumnPropNameInRow="cannangchuan" msprop:Generator_ColumnPropNameInTable="cannangchuanColumn" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,75 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="KPBT" GeneratedClassName="Settings1">
+  <Profiles />
+  <Settings>
+    <Setting Name="namlv" Type="System.String" Scope="User">
+      <Value Profile="(Default)">QLDD2014.mdb</Value>
+    </Setting>
+    <Setting Name="mucan" Type="System.String" Scope="User">
+      <Value Profile="(Default)">9500</Value>
+    </Setting>
+    <Setting Name="namend" Type="System.String" Scope="User">
+      <Value Profile="(Default)">dd</Value>
+    </Setting>
+    <Setting Name="mknd" Type="System.String" Scope="User">
+      <Value Profile="(Default)">dd</Value>
+    </Setting>
+    <Setting Name="phuonganh" Type="System.String" Scope="User">
+      <Value Profile="(Default)">phuonganh</Value>
+    </Setting>
+    <Setting Name="thuno" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="thuco" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="chino" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="chico" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="thumucdoi" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="namdoi" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="thumucgoc" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="thumucdich" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="namgoc" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="dc" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="mucansang" Type="System.String" Scope="User">
+      <Value Profile="(Default)">5000</Value>
+    </Setting>
+    <Setting Name="mucantoi" Type="System.String" Scope="User">
+      <Value Profile="(Default)">9500</Value>
+    </Setting>
+    <Setting Name="mucanht" Type="System.String" Scope="User">
+      <Value Profile="(Default)">460000</Value>
+    </Setting>
+    <Setting Name="unname" Type="System.String" Scope="User">
+      <Value Profile="(Default)">trungyen25101988</Value>
+    </Setting>
+    <Setting Name="nammau" Type="System.String" Scope="User">
+      <Value Profile="(Default)">QLDD.mdb</Value>
+    </Setting>
+    <Setting Name="namchuyen" Type="System.String" Scope="User">
+      <Value Profile="(Default)">QLDD2015.mdb</Value>
+    </Setting>
+    <Setting Name="duongdanchuyen" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="thumucchuyen" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+  </Settings>
+</SettingsFile>
